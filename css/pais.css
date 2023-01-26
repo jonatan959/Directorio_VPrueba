@@ -1,0 +1,42 @@
+body {
+  background: url(../imagenes/World\ Map.svg);
+  background-repeat: no-repeat; /*No se repita*/
+  background-size: cover; /*imagen de fondo al 10 de ancho*/
+  background-attachment: fixed; /*posicion fija de imagen*/
+}
+/*Imagenes */
+.bandera {
+  max-width: 60%;
+  border-radius: 20px;
+}
+/*caja de caracteriticas*/
+.caja {
+  /*border:2px solid rgb(107, 107, 197);*/
+  box-sizing: border-box;
+  color: #1e1c53;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0.2%;
+  padding: 1em;
+  vertical-align: top;
+  width: 31.9%;
+}
+/*Texto de aduanas*/
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Timmana', sans-serif;
+  font-size: 30px;
+}
+p {
+  color: whitesmoke;
+  font-family: 'Timmana', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+hr
+{
+  border: solid 6px whitesmoke;
+}

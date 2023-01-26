@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange:400');
+
+h1 {
+    text-align: center;
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 20px;
+}
+
+ul li {
+    text-align: center;
+    font-family: 'Maiden Orange', sans-serif;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Maiden Orange', sans-serif;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+ul li,
+p {
+    color: rgb(255, 255, 255);
+}
+.tipos li 
+{
+    font-size: 30px;
+}
+
+/*Imagen*/
+.bandera {
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    right: -50px;
+}
+/*Fondo*/
+body {
+    background: url(../imagenes/Fondos/fon4.jpg);
+    background-repeat: no-repeat;
+    /*No se repita*/
+    background-size: cover;
+    /*imagen de fondo al 10 de ancho*/
+    background-attachment: fixed;
+    /*posicion fija de imagen*/
+}
+/*Tabla*/
+
+.default
+{
+    border-color: whitesmoke;
+    position: relative;
+    right: -400px;
+}
+.default td 
+{
+    color:whitesmoke;
+    font-size: 20px;
+}
+.default th
+{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.titulo
+{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.default th td .titulo
+{
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: 'Maiden Orange', sans-serif;
+}
