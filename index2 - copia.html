@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---Hojas de Estilo-->
+    <link rel="stylesheet" href="css/estilo - copia.css"/>
+    <link rel="stylesheet" href="css/slider.css"/>
+    <link rel="stylesheet" href="css/secciones.css"/>
+    <link rel="stylesheet" href="css/pais.css" />
+    <link rel="stylesheet" href="css/general.css">
+    <!---Fin de hojas de estilos-->
+    <link rel="icon" href="Icono/logistic.png" />
+    <!--Uso de icono-->
+    <title>Paieses</title>
+   <script>
+    document.addEventListener("keyup", e=>{
+
+if (e.target.matches("#buscador")){
+
+    if (e.key ==="Escape")e.target.value = ""
+
+    document.querySelectorAll(".caja").forEach(pais =>{
+
+        fruta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+          ?pais.classList.remove("filtro")
+          :pais.classList.add("filtro")
+    })
+
+}
+
+
+})
+   </script>
+  </head>
+  <body>
+    <!--Uso de menu-->
+    <header>
+      <div class="ancho">
+        <div class="logo">
+          <p><a href="index.html">Directorio Aduanal</a></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index2.html">Paises</a></li>
+          </ul>
+          <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+        </nav>
+      </div>
+    </header>
+    <!--Termino de menu-->
+    <br /><br /><br /><br /><br /><br />
+    <!--Inicio de Pais Asiaticos-->
+    <h1>Paises Asiaticos</h1>
+    <hr />
+    <br /><br /><br />
+    <div class="caja">
+      <a href="china.html"
+        ><img class="bandera" src="imagenes/banderas/china.png" alt=""
+      /></a>
+      <p>Aduanas de China</p>
+    </div>
+    <div class="caja">
+      <a href="Iran.html"
+        ><img class="bandera" src="imagenes/banderas/iran.png" alt=""
+      /></a>
+      <p>Aduanas de Iran</p>
+    </div>
+    <div class="caja">
+      <a href="japon.html"
+        ><img class="bandera" src="imagenes/banderas/japon.png" alt=""
+      /></a>
+      <p>Aduanas de Japon</p>
+    </div>
+    <div class="caja">
+      <a href="coreas.html"
+        ><img class="bandera" src="imagenes/banderas/Corea de Sur.png" alt=""
+      /></a>
+      <p>Aduanas de Corea del Sur</p>
+    </div>
+    <div class="caja">
+      <a href="india.html"
+        ><img class="bandera" src="imagenes/banderas/india.png" alt=""
+      /></a>
+      <p>Aduanas de India</p>
+    </div>
+    <div class="caja">
+      <a href="tailandia.html"
+        ><img class="bandera" src="imagenes/banderas/tailandia.png" alt=""
+      /></a>
+      <p>Aduanas de Tailandia</p>
+    </div>
+    <div class="caja">
+      <a href="filipinas.html"
+        ><img class="bandera" src="imagenes/banderas/filipinas.png" alt=""
+      /></a>
+      <p>Aduanas de Filipinas</p>
+    </div>
+    <!--Fin de pais asiaticos-->
+    <!--inicio de pais europep-->
+    <h1>Paises Europeos</h1>
+    <hr />
+    <br><br><br>
+    <div class="caja">
+      <a href="alemania.html"
+        ><img class="bandera" src="imagenes/banderas/alemania.png" alt=""
+      /></a>
+      <p>Aduanas de Alemania</p>
+    </div>
+    <div class="caja">
+      <a href="francia.html"
+        ><img class="bandera" src="imagenes/banderas/francia.png" alt=""
+      /></a>
+      <p>Aduanas de Francia</p>
+    </div>
+    <div class="caja">
+      <a href="italia.html"
+        ><img class="bandera" src="imagenes/banderas/italia.png" alt=""
+      /></a>
+      <p>Aduanas de Italia</p>
+    </div>
+    <div class="caja">
+      <a href="reino.html"
+        ><img class="bandera" src="imagenes/banderas/reino unido.png" alt=""
+      /></a>
+      <p>Aduanas de Reino Unido</p>
+    </div>
+    <div class="caja">
+      <a href="suiza.html"
+        ><img class="bandera" src="imagenes/banderas/suiza.png" alt=""
+      /></a>
+      <p>Aduanas de Suiza</p>
+    </div>
+    <div class="caja">
+      <a href="irlanda.html"
+        ><img class="bandera" src="imagenes/banderas/irlanda.png" alt=""
+      /></a>
+      <p>Aduanas de Irlanda</p>
+    </div>
+    <div class="caja">
+      <a href="finlandia.html"
+        ><img class="bandera" src="imagenes/banderas/filandia.png" alt=""
+      /></a>
+      <p>Aduanas de Finlandia</p>
+    </div>
+    <!--fin de pais europeos-->
+    <!--inicio de pais africanos-->
+    <h1>Paises Africanos</h1>
+    <hr />
+    <br><br><br>
+    <div class="caja">
+      <a href="nigeria.html"
+        ><img class="bandera" src="imagenes/banderas/nigeria.png" alt=""
+      /></a>
+      <p>Aduanas de Nigeria</p>
+    </div>
+    <div class="caja">
+      <a href="kenia.html"
+        ><img class="bandera" src="imagenes/banderas/kenya.png" alt=""
+      /></a>
+      <p>Aduanas de Kenya</p>
+    </div>
+    <div class="caja">
+      <a href="sudafrica.html"
+        ><img class="bandera" src="imagenes/banderas/sudafrica.png" alt=""
+      /></a>
+      <p>Aduanas de Sudafrica</p>
+    </div>
+    <div class="caja">
+      <a href="marfil.html"
+        ><img
+          class="bandera"
+          src="imagenes/banderas/costa de marfil.png" alt=""/></a>
+      <p>Aduanas de Costa de Marfil</p>
+    </div>
+    <div class="caja">
+      <a href="togo.html"
+        ><img class="bandera" src="imagenes/banderas/togo.png" alt=""
+      /></a>
+      <p>Aduanas de Togo</p>
+    </div>
+    <div class="caja">
+      <a href="ruanda.html"
+        ><img class="bandera" src="imagenes/banderas/ruanda.png" alt=""
+      /></a>
+      <p>Aduanas de Ruanda</p>
+    </div>
+    <div class="caja">
+      <a href="tanzania.html"
+        ><img class="bandera" src="imagenes/banderas/tanzania.png" alt=""
+      /></a>
+      <p>Aduanas de Tanzania</p>
+    </div>
+    <!--fin de pais Africanos-->
+    <!--Paieses Americanos-->
+    <h1>Paises Americanos</h1>
+    <hr />
+    <br><br><br>
+    <div class="caja">
+      <a href="eu.html"
+        ><img class="bandera" src="imagenes/banderas/usa.png" alt=""
+      /></a>
+      <p>Aduanas de Estados Unidos Americanos</p>
+    </div>
+    <div class="caja">
+      <a href="canada.html"
+        ><img class="bandera" src="imagenes/banderas/canada.png" alt=""
+      /></a>
+      <p>Aduanas de Canadá</p>
+    </div>
+    <div class="caja">
+      <a href="mexico.html"
+        ><img class="bandera" src="imagenes/banderas/mexico.png" alt=""
+      /></a>
+      <p>Aduanas de México</p>
+    </div>
+    <div class="caja">
+      <a href="brasil.html"
+        ><img
+          class="bandera"
+          src="imagenes/banderas/brasil.png"
+          alt=""
+      /></a>
+      <p>Aduanas de Brasil</p>
+    </div>
+    <div class="caja">
+      <a href="colombia.html"><img class="bandera" src="imagenes/banderas/colombia.png" alt=""></a>
+      <p>Aduanas de Colombia</p>
+    </div>
+    <div class="caja">
+      <a href="salvador.html"
+        ><img class="bandera" src="imagenes/banderas/salvador.png" alt=""
+      /></a>
+      <p>Aduanas de Republica del Salvador</p>
+    </div>
+    <div class="caja">
+      <a href="argentina.html"
+        ><img class="bandera" src="imagenes/banderas/argentina.png" alt=""
+      /></a>
+      <p>Aduanas de Argentina</p>
+    </div>
+    <!--Fin de paises Americanos-->
+    <!--Hojas de java-->
+  </body>
+</html>
