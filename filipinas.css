@@ -82,8 +82,10 @@ body {
     text-align: justify;
     font-family: 'Maiden Orange', sans-serif;
 }
-.tabla1
+/*Estilo de tablas*/
+.movimiento
 {
     position: relative;
-    left:-500px;
+    left: -350px
 }
+

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Maiden+Orange:400');
-* {
-    margin: 0;
-    padding: 0;
-  }
+
 h1 {
     text-align: center;
     font-family: 'Maiden Orange', sans-serif;
@@ -79,15 +76,9 @@ body {
     color: whitesmoke;
     font-size: 25px;
 }
-/*Estilos de Aduanas*/
-.aduana
-{
-    text-decoration: none;
-    color: white;
-}
-/*Estilo de Tabla*/
-.tabla1
+/*Estilo de tablas*/
+.movimiento
 {
     position: relative;
-    left:-500px;
+    left: -450px
 }
